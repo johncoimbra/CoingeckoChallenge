@@ -108,6 +108,5 @@ class CoinListViewModel: ObservableObject {
         }
         
         let saved = try? repository.fetchCoins()
-        let coin = saved?.first { $0.id == coin.id }
     }
 }

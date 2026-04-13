@@ -1,5 +1,5 @@
 //
-//  CoinItemVIew.swift
+//  CoinItemView.swift
 //  CoingeckoChallenge
 //
 //  Created by John Allen Santos Coimbra on 29/03/26.
@@ -46,6 +46,7 @@ struct CoinItemView: View {
                         onFavoriteTapped(coin)
                     }
             }
+            .contentShape(Rectangle())
         }
         .buttonStyle(.plain)
     }
