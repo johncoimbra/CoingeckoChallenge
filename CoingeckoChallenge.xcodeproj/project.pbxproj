@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525087B42F6655F400F47542 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 525087B32F6655F400F47542 /* Alamofire */; };
+		525087B62F6655F900F47542 /* SQLiteData in Frameworks */ = {isa = PBXBuildFile; productRef = 525087B52F6655F900F47542 /* SQLiteData */; };
+		525087B82F6655FE00F47542 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 525087B72F6655FE00F47542 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52C8476C2F56FFEE00A136BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52C847562F56FFED00A136BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52C8475D2F56FFED00A136BC;
+			remoteInfo = CoingeckoChallenge;
+		};
+		52C847762F56FFEE00A136BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52C847562F56FFED00A136BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52C8475D2F56FFED00A136BC;
+			remoteInfo = CoingeckoChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52C8475E2F56FFED00A136BC /* CoingeckoChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoingeckoChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C8476B2F56FFEE00A136BC /* CoingeckoChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoingeckoChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C847752F56FFEE00A136BC /* CoingeckoChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoingeckoChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		52C847602F56FFED00A136BC /* CoingeckoChallenge */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoingeckoChallenge;
+			sourceTree = "<group>";
+		};
+		52C8476E2F56FFEE00A136BC /* CoingeckoChallengeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoingeckoChallengeTests;
+			sourceTree = "<group>";
+		};
+		52C847782F56FFEE00A136BC /* CoingeckoChallengeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoingeckoChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52C8475B2F56FFED00A136BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525087B82F6655FE00F47542 /* Kingfisher in Frameworks */,
+				525087B62F6655F900F47542 /* SQLiteData in Frameworks */,
+				525087B42F6655F400F47542 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C847682F56FFEE00A136BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C847722F56FFEE00A136BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525087B22F6655F400F47542 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52C847552F56FFED00A136BC = {
+			isa = PBXGroup;
+			children = (
+				52C847602F56FFED00A136BC /* CoingeckoChallenge */,
+				52C8476E2F56FFEE00A136BC /* CoingeckoChallengeTests */,
+				52C847782F56FFEE00A136BC /* CoingeckoChallengeUITests */,
+				525087B22F6655F400F47542 /* Frameworks */,
+				52C8475F2F56FFED00A136BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52C8475F2F56FFED00A136BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52C8475E2F56FFED00A136BC /* CoingeckoChallenge.app */,
+				52C8476B2F56FFEE00A136BC /* CoingeckoChallengeTests.xctest */,
+				52C847752F56FFEE00A136BC /* CoingeckoChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52C8475D2F56FFED00A136BC /* CoingeckoChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C8477F2F56FFEE00A136BC /* Build configuration list for PBXNativeTarget "CoingeckoChallenge" */;
+			buildPhases = (
+				52C8475A2F56FFED00A136BC /* Sources */,
+				52C8475B2F56FFED00A136BC /* Frameworks */,
+				52C8475C2F56FFED00A136BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				52C847602F56FFED00A136BC /* CoingeckoChallenge */,
+			);
+			name = CoingeckoChallenge;
+			packageProductDependencies = (
+				525087B32F6655F400F47542 /* Alamofire */,
+				525087B52F6655F900F47542 /* SQLiteData */,
+				525087B72F6655FE00F47542 /* Kingfisher */,
+			);
+			productName = CoingeckoChallenge;
+			productReference = 52C8475E2F56FFED00A136BC /* CoingeckoChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52C8476A2F56FFEE00A136BC /* CoingeckoChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C847822F56FFEE00A136BC /* Build configuration list for PBXNativeTarget "CoingeckoChallengeTests" */;
+			buildPhases = (
+				52C847672F56FFEE00A136BC /* Sources */,
+				52C847682F56FFEE00A136BC /* Frameworks */,
+				52C847692F56FFEE00A136BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52C8476D2F56FFEE00A136BC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52C8476E2F56FFEE00A136BC /* CoingeckoChallengeTests */,
+			);
+			name = CoingeckoChallengeTests;
+			packageProductDependencies = (
+			);
+			productName = CoingeckoChallengeTests;
+			productReference = 52C8476B2F56FFEE00A136BC /* CoingeckoChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52C847742F56FFEE00A136BC /* CoingeckoChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C847852F56FFEE00A136BC /* Build configuration list for PBXNativeTarget "CoingeckoChallengeUITests" */;
+			buildPhases = (
+				52C847712F56FFEE00A136BC /* Sources */,
+				52C847722F56FFEE00A136BC /* Frameworks */,
+				52C847732F56FFEE00A136BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52C847772F56FFEE00A136BC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52C847782F56FFEE00A136BC /* CoingeckoChallengeUITests */,
+			);
+			name = CoingeckoChallengeUITests;
+			packageProductDependencies = (
+			);
+			productName = CoingeckoChallengeUITests;
+			productReference = 52C847752F56FFEE00A136BC /* CoingeckoChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52C847562F56FFED00A136BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					52C8475D2F56FFED00A136BC = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					52C8476A2F56FFEE00A136BC = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = 52C8475D2F56FFED00A136BC;
+					};
+					52C847742F56FFEE00A136BC = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = 52C8475D2F56FFED00A136BC;
+					};
+				};
+			};
+			buildConfigurationList = 52C847592F56FFED00A136BC /* Build configuration list for PBXProject "CoingeckoChallenge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				pt,
+			);
+			mainGroup = 52C847552F56FFED00A136BC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				52B23EDD2F584F6E001C3BFC /* XCRemoteSwiftPackageReference "sqlite-data" */,
+				52946AE62F5F9B020067D828 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				52946AE72F5F9C930067D828 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 52C8475F2F56FFED00A136BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52C8475D2F56FFED00A136BC /* CoingeckoChallenge */,
+				52C8476A2F56FFEE00A136BC /* CoingeckoChallengeTests */,
+				52C847742F56FFEE00A136BC /* CoingeckoChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52C8475C2F56FFED00A136BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C847692F56FFEE00A136BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C847732F56FFEE00A136BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52C8475A2F56FFED00A136BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C847672F56FFEE00A136BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C847712F56FFEE00A136BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52C8476D2F56FFEE00A136BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52C8475D2F56FFED00A136BC /* CoingeckoChallenge */;
+			targetProxy = 52C8476C2F56FFEE00A136BC /* PBXContainerItemProxy */;
+		};
+		52C847772F56FFEE00A136BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52C8475D2F56FFED00A136BC /* CoingeckoChallenge */;
+			targetProxy = 52C847762F56FFEE00A136BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52C8477D2F56FFEE00A136BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 27AF8CVW9M;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		52C8477E2F56FFEE00A136BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 27AF8CVW9M;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52C847802F56FFEE00A136BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27AF8CVW9M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = johncoimbra.CoingeckoChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52C847812F56FFEE00A136BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27AF8CVW9M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = johncoimbra.CoingeckoChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52C847832F56FFEE00A136BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27AF8CVW9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = johncoimbra.CoingeckoChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoingeckoChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoingeckoChallenge";
+			};
+			name = Debug;
+		};
+		52C847842F56FFEE00A136BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27AF8CVW9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = johncoimbra.CoingeckoChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoingeckoChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoingeckoChallenge";
+			};
+			name = Release;
+		};
+		52C847862F56FFEE00A136BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27AF8CVW9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = johncoimbra.CoingeckoChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoingeckoChallenge;
+			};
+			name = Debug;
+		};
+		52C847872F56FFEE00A136BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27AF8CVW9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = johncoimbra.CoingeckoChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoingeckoChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52C847592F56FFED00A136BC /* Build configuration list for PBXProject "CoingeckoChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C8477D2F56FFEE00A136BC /* Debug */,
+				52C8477E2F56FFEE00A136BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C8477F2F56FFEE00A136BC /* Build configuration list for PBXNativeTarget "CoingeckoChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C847802F56FFEE00A136BC /* Debug */,
+				52C847812F56FFEE00A136BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C847822F56FFEE00A136BC /* Build configuration list for PBXNativeTarget "CoingeckoChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C847832F56FFEE00A136BC /* Debug */,
+				52C847842F56FFEE00A136BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C847852F56FFEE00A136BC /* Build configuration list for PBXNativeTarget "CoingeckoChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C847862F56FFEE00A136BC /* Debug */,
+				52C847872F56FFEE00A136BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52946AE62F5F9B020067D828 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
+		};
+		52946AE72F5F9C930067D828 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.8.0;
+			};
+		};
+		52B23EDD2F584F6E001C3BFC /* XCRemoteSwiftPackageReference "sqlite-data" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/sqlite-data";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		525087B32F6655F400F47542 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52946AE62F5F9B020067D828 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		525087B52F6655F900F47542 /* SQLiteData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B23EDD2F584F6E001C3BFC /* XCRemoteSwiftPackageReference "sqlite-data" */;
+			productName = SQLiteData;
+		};
+		525087B72F6655FE00F47542 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52946AE72F5F9C930067D828 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 52C847562F56FFED00A136BC /* Project object */;
+}
