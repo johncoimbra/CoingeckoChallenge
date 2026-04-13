@@ -124,9 +124,10 @@ CoingeckoChallenge/
 
 ## Screenshots
 
-<img width="300" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-04-13 at 16 32 25" src="https://github.com/user-attachments/assets/6bbf533f-ef04-435a-9a6d-b6c03752b94f" /> 
-<img width="300" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-04-13 at 16 32 31" src="https://github.com/user-attachments/assets/c0319d93-e519-4952-8aba-9600949850cb" /> 
-<img width="300" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-04-13 at 16 32 35" src="https://github.com/user-attachments/assets/02946b09-71ce-40b7-9da1-5ba500e10b06" />
+<img width="225" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-04-13 at 18 25 33" src="https://github.com/user-attachments/assets/dc13a9b0-9d97-423b-be48-d0f3d6ff2f1c" />
+<img width="225" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-04-13 at 16 32 25" src="https://github.com/user-attachments/assets/6bbf533f-ef04-435a-9a6d-b6c03752b94f" /> 
+<img width="225" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-04-13 at 16 32 31" src="https://github.com/user-attachments/assets/c0319d93-e519-4952-8aba-9600949850cb" /> 
+<img width="225" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-04-13 at 16 32 35" src="https://github.com/user-attachments/assets/02946b09-71ce-40b7-9da1-5ba500e10b06" />
 
 ---
 
