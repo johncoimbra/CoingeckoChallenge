@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct CoingeckoChallengeApp: App {
+    @State private var showSplash = true
     
     init() {
         _ = DatabaseManager.shared
@@ -16,7 +17,16 @@ struct CoingeckoChallengeApp: App {
     
     var body: some Scene {
         WindowGroup {
-            CoinListView()
+            if showSplash {
+                SplashView()
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                            showSplash = false
+                        }
+                    }
+            } else {
+                CoinListView()
+            }
         }
     }
 }
