@@ -62,15 +62,25 @@ CoingeckoChallenge/
 │   │   ├── CoinListViewModel
 │   │   └── Components/
 │   │       └── CoinItemView
-│   └── CoinDetailsSheet/
-│       ├── CoinDetailsSheetView
-│       ├── CoinDetailsSheetViewModel
-│       └── Components/
-│           ├── CoinDetailsHeaderView
-│           └── CoinDetailsMetricsView
-└── Model/
-    └── Enum/
-        └── CoinFilter
+│   ├── CoinDetailsSheet/
+│   │   ├── CoinDetailsSheetView
+│   │   ├── CoinDetailsSheetViewModel
+│   │   └── Components/
+│   │       ├── CoinDetailsHeaderView
+│   │       └── CoinDetailsMetricsView
+│   ├── Model/
+│       ├── Enum/
+│       │   └── CoinFilter
+│       ├── CoinListItem
+│       ├── CoinDetails
+│       ├── CoinImage
+│       ├── CoinDescription
+│       ├── CoinCurrentPrice
+│       └── CoinMarketData
+├── UI/
+│   ├── Assets
+├── Localizable
+└── SplashView
 ```
 
 ---
