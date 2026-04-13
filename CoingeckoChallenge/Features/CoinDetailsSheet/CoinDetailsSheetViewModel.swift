@@ -37,7 +37,6 @@ class CoinDetailsSheetViewModel: ObservableObject {
         
         if let cachedCoin, cachedCoin.lastUpdated == coin.lastUpdated {
             self.isLoading = false
-            return
         }
         
         Task {
