@@ -124,7 +124,9 @@ CoingeckoChallenge/
 
 ## Screenshots
 
-> Add app screenshots here
+<img width="300" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-04-13 at 16 32 25" src="https://github.com/user-attachments/assets/6bbf533f-ef04-435a-9a6d-b6c03752b94f" /> 
+<img width="300" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-04-13 at 16 32 31" src="https://github.com/user-attachments/assets/c0319d93-e519-4952-8aba-9600949850cb" /> 
+<img width="300" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-04-13 at 16 32 35" src="https://github.com/user-attachments/assets/02946b09-71ce-40b7-9da1-5ba500e10b06" />
 
 ---
 
