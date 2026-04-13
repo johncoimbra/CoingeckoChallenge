@@ -106,7 +106,5 @@ class CoinListViewModel: ObservableObject {
         if let index = coins.firstIndex(where: { $0.id == coin.id }) {
             coins[index].isFavorite = !coin.isFavorite
         }
-        
-        let saved = try? repository.fetchCoins()
     }
 }
