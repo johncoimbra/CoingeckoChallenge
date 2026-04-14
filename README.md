@@ -78,7 +78,7 @@ CoingeckoChallenge/
 │       ├── CoinCurrentPrice
 │       └── CoinMarketData
 ├── UI/
-│   ├── Assets
+│   └── Assets
 ├── Localizable
 └── SplashView
 ```
