@@ -143,5 +143,5 @@ CoingeckoChallenge/
 
 ## Author
 
-John Allen  
+John Coimbra  
 iOS Developer @ Joinin Tecnologia
